@@ -2,7 +2,7 @@ import { Hero, SearchBar, CustomFilter, CarCard, ShowMore } from '@/components'
 import { fuels, yearsOfProduction } from '@/constants';
 import { fetchCars } from '@/utils';
 
-export default async function Home( searchParams: any ) {
+export default async function Home( { searchParams }) {
   const allCars = await fetchCars({
     manufacturer: searchParams.manufacturer || '',
     year: searchParams.year || 2022,
