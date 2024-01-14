@@ -1,3 +1,6 @@
+## Intro
+Projeto simulando um site de aluguel de carros com um catálogo funcional
+
 ## Instalação
 1. **Clone do repositório e instalação das dependências**
 ```bash
@@ -19,8 +22,15 @@ NEXT_PUBLIC_IMAGIN_API_KEY = 'hrjavascript-mastery'
 ```
 npm run dev
 ```
+
+## Créditos
+Baseado em um projeto do <a href="https://www.youtube.com/@javascriptmastery">JavaScript Mastery</a>
+
 <br><br>
 ## English
+
+## Intro
+Project simulating a car rental website with a functional catalog
 ## Installation
 1. **Clone the repository and install dependencies**
 ```bash
@@ -42,3 +52,6 @@ NEXT_PUBLIC_IMAGIN_API_KEY = 'hrjavascript-mastery'
 ```
 npm run dev
 ```
+
+## Credits
+Based on a project from <a href="https://www.youtube.com/@javascriptmastery">JavaScript Mastery</a>
