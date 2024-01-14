@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
+## Instalação
+1. **Clone do repositório e instalação das dependências**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/giovannecorrea/car_showcase
+cd car_showcase
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Crie duas variáveis de ambiente no root (.env.local)**
+```bash
+RAPID_API_KEY = "SUA_CHAVE"
+NEXT_PUBLIC_IMAGIN_API_KEY = 'hrjavascript-mastery'
+```
+> Crie sua **RAPID_API_KEY** em https://rapidapi.com/apininjas/api/cars-by-api-ninjas/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> Para API Key das imagens dos carros, utilize *hrjavascript-mastery*, para fins de teste
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Rodar o servidor localmente (http://localhost:3000)**
+```
+npm run dev
+```
+<br><br>
+## English
+## Installation
+1. **Clone the repository and install dependencies**
+```bash
+git clone https://github.com/giovannecorrea/car_showcase
+cd car_showcase
+npm install
+```
 
-## Learn More
+2. **Create two environment variables in the root (.env.local)**
+```bash
+RAPID_API_KEY = "SUA_CHAVE"
+NEXT_PUBLIC_IMAGIN_API_KEY = 'hrjavascript-mastery'
+```
+> Generate your **RAPID_API_KEY** at https://rapidapi.com/apininjas/api/cars-by-api-ninjas/
 
-To learn more about Next.js, take a look at the following resources:
+> For the car images API Key, use *hrjavascript-mastery* for testing purposes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. **Run the server locally (http://localhost:3000)**
+```
+npm run dev
+```
